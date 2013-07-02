@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>simon_says</title>
+
+    <!-- simon_says references -->
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/buzz.js"></script>
+    <script src="js/default.js"></script>
+</head>
+<body>
+    <div id="menu">Menu</div>
+    <div id="correct">Correct! Good Job.</div>
+    <div id="incorrect">Sorry, try again.</div>
+    <div id="ready">Ready?</div>
+    <div id="options">
+        <div class="option" id="squares-option">
+            <center>Squares<span class="selected">4</span><span>6</span><span>9</span></center>
+        </div>
+        <!-- <div class="option" id="player-option">
+            <center><span> Players </span><span class="selected">1</span><span>2</span><span>3</span><span>4</span></center>
+        </div> -->
+        <center><div class="option" id="begin">&#x2713;</div></center>
+    </div>
+    <section id="gameboard">
+    </section>
+
+<!-- templates -->
+<script type="text/template" id="square-template"><div class='square'></div></script>
+</body>
+</html>
